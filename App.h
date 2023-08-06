@@ -25,8 +25,6 @@ private:
             installs = 0;
         };
 
-        ~App(){};
-
         App(string cName, string cCategory, string cContentRating, double cRating,
             double cPrice, int cInstalls) {
             name = cName;
@@ -44,6 +42,13 @@ private:
     vector<App *> quickList;
 
 public:
+
+    ~AppList(){
+      for(auto apps: allApps){
+        delete apps;
+      }
+    }
+
     void loadApps(fstream &file) {
         if (file.is_open()) {
             string readLine;
