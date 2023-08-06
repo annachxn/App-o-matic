@@ -1,0 +1,32 @@
+{
+  "files": {
+    "App.h": [
+      {
+        "id": "39c87a6b-4468-423a-9507-b45b93f82f22",
+        "line": 1,
+        "version": 3114,
+        "index": 0
+      },
+      {
+        "id": "1f13700e-fcd0-4aea-9cdf-637e59411c94",
+        "line": 1,
+        "version": 3114,
+        "index": 0
+      },
+      {
+        "id": "62a20664-a175-42f8-9a63-85a75a43089a",
+        "line": 1,
+        "version": 3114,
+        "index": 0
+      }
+    ],
+    "main.cpp": [
+      {
+        "id": "6de1a5e5-2d18-481b-b9ee-ac66ccedec41",
+        "line": 14,
+        "version": 9170,
+        "index": 285
+      }
+    ]
+  }
+}
